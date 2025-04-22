@@ -1,3 +1,4 @@
+package domain.user;
 import java.math.BigDecimal;
 
 import org.hibernate.usertype.UserType;
@@ -10,7 +11,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
-import lombok.Getter;
 
 @Entity(name="users")
 @Table(name = "users")
