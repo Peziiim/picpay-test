@@ -38,6 +38,7 @@ Este projeto é uma implementação simplificada de um sistema de transferência
 
 ---
 # Como executar
+```
 public class Main {
     public static void main(String[] args) {
         User pagador = new User("João", "12345678900", "joao@email.com", 1000.0, UserType.COMUM);
@@ -50,3 +51,4 @@ public class Main {
         System.out.println("Saldo do recebedor: " + recebedor.getSaldo());
     }
 }
+```
